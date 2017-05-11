@@ -3,7 +3,6 @@
 namespace Ekkinox\BddPhpLivecoding;
 
 /**
- * Class BankAccount
  * @package Ekkinox\BddPhpLivecoding
  */
 class BankAccount

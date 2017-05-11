@@ -4,10 +4,8 @@ namespace spec\Ekkinox\BddPhpLivecoding;
 
 use Ekkinox\BddPhpLivecoding\BankAccount;
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 
 /**
- * Class BankAccountSpec
  * @package spec\Ekkinox\BddPhpLivecoding
  */
 class BankAccountSpec extends ObjectBehavior
@@ -24,14 +22,14 @@ class BankAccountSpec extends ObjectBehavior
         $this->getBalance()->shouldReturn(100);
     }
 
-    function it_can_make_a_deposit()
+    function it_can_handle_a_deposit()
     {
         $this->setBalance(100)->shouldReturn($this);
         $this->makeDeposit(20)->shouldReturn($this);
         $this->getBalance()->shouldReturn(120);
     }
 
-    function it_can_make_a_withdraw()
+    function it_can_handle_a_withdraw()
     {
         $this->setBalance(100)->shouldReturn($this);
         $this->makeWithdraw(20)->shouldReturn($this);
