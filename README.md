@@ -6,9 +6,10 @@ The related slides for this live coding session can be found [at this link](http
 
 ## Behavior Driven Development
 
-This implementation was made in BDD approach, using coupled:
+This implementation was made in BDD approach, using together:
 - [Behat](http://behat.org)
 - [PHPSpec](http://www.phpspec.net)
+- [PHPSpec code coverage](hhttps://github.com/leanphp/phpspec-code-coverage)
 - [PHPUnit](https://phpunit.de)
 
 ## Installation
