@@ -45,7 +45,7 @@ class BankAccountContext implements Context
     }
 
     /**
-     * @Given My bank account has a balance of :balance
+     * @Given my bank account has a balance of :balance
      */
     public function myBankAccountHasABalanceOf($balance)
     {

@@ -8,11 +8,11 @@ Feature: BankAccount
     Then my bank account balance should be 100
 
     Scenario: I can make a deposit
-      Given My bank account has a balance of 100
+      Given my bank account has a balance of 100
       When I make a deposit of 20
       Then my bank account balance should be 120
 
   Scenario: I can make a withdraw
-    Given My bank account has a balance of 100
+    Given my bank account has a balance of 100
     When I make a withdraw of 20
     Then my bank account balance should be 80
