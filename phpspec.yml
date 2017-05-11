@@ -1,0 +1,8 @@
+suites:
+    bankaccount_suite:
+        namespace: Ekkinox\BddPhpLivecoding
+        psr4_prefix: Ekkinox\BddPhpLivecoding
+formatter:
+    name: pretty
+extensions:
+    LeanPHP\PhpSpec\CodeCoverage\CodeCoverageExtension: ~
