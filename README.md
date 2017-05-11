@@ -9,7 +9,7 @@ The related slides for this live coding session can be found [at this link](http
 This implementation was made in BDD approach, using together:
 - [Behat](http://behat.org)
 - [PHPSpec](http://www.phpspec.net)
-- [PHPSpec code coverage](hhttps://github.com/leanphp/phpspec-code-coverage)
+- [PHPSpec code coverage](https://github.com/leanphp/phpspec-code-coverage)
 - [PHPUnit](https://phpunit.de)
 
 ## Installation
